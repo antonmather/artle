@@ -1,0 +1,26 @@
+.row {
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+
+.button {
+    height: 40px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    background-image: linear-gradient(rgb(0, 132, 255), rgb(0, 87, 168));
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.button:hover {
+    border-radius: 0px;
+   transition: 200ms;
+}
+
+.button:active {
+    background-image: linear-gradient( rgb(0, 87, 168), rgb(0, 132, 255));
+}

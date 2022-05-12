@@ -1,0 +1,10 @@
+.header {
+    font-family: sans-serif;
+    padding-left: 50px;
+}
+
+.canvas {
+    margin-left: 50px;
+    max-width: fit-content;
+}
+

@@ -1,0 +1,18 @@
+.cell {
+    width: 50px;
+    height: 50px;
+    margin:5px;
+    border-radius: 5px
+}
+
+.green {
+    background-image: linear-gradient(lime, green);
+}
+
+.yellow {
+    background-image: linear-gradient(yellow, rgb(209, 160, 0));
+}
+
+.grey {
+    background-image: linear-gradient(rgb(172, 172, 172), rgb(124, 124, 124));
+}

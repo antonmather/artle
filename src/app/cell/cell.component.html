@@ -1,0 +1,10 @@
+<div [ngSwitch]="this.value" >
+    <div (click)="updateValue()" *ngSwitchCase="0" class="cell grey">
+    </div>
+    <div (click)="updateValue()" *ngSwitchCase="1" class="cell green">
+    </div>
+    <div (click)="updateValue()" *ngSwitchCase="2" class="cell yellow">
+    </div>
+</div>
+
+

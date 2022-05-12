@@ -1,0 +1,9 @@
+<div class="row" *ngFor="let row of this.rows">
+    <div *ngFor="let cell of row">
+        <app-cell></app-cell>
+    </div>
+</div>
+<div class="controls">
+    <button class="button" (click)="refreshCanvas()">Reset</button>
+    <button class="button" (click)="copyToClipboard(this.rows)">Copy to Clipboard</button>
+</div>
