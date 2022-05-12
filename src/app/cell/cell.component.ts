@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { CanvasService } from '../canvas.service';
 
 @Component({
   selector: 'app-cell',
@@ -9,7 +10,7 @@ export class CellComponent implements OnInit {
 
   @Input() public value: number;
 
-  constructor() { 
+  constructor(public service: CanvasService) { 
     this.value = 0;
   }
 
@@ -22,5 +23,6 @@ export class CellComponent implements OnInit {
     } else {
       this.value++;
     }
+    console.log(this.value);
   }
 }
